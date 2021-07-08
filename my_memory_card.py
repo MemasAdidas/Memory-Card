@@ -22,6 +22,9 @@ questions_list.append(
         Question('Какого цвета нет на флаге России?', 'Зелёный', 'Красный', 'Белый', 'Синий'))
 questions_list.append(
         Question('Национальная хижина якутов', 'Ураса', 'Юрта', 'Иглу', 'Хата'))
+
+questions_list.append(
+        Question('Это вопрос?', 'Да', 'Нет', 'Незнаю', 'Не'))
  
 app = QApplication([])
  
